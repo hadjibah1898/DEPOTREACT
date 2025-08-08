@@ -1,0 +1,90 @@
+ .App {
+  text-align: center;
+  font-family: sans-serif;
+} */
+
+ .App-header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+}
+
+main {
+  width: 500px;
+  margin: 0 auto;
+}
+
+form {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  flex-grow: 1;
+  padding: 10px;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  background-color: #4CAF50;
+  color: white;
+}
+
+.filter-bar {
+  margin-bottom: 20px;
+}
+
+.filter-bar button {
+  margin-right: 10px;
+  background-color: #f1f1f1;
+  color: black;
+}
+
+.filter-bar button.active {
+  background-color: #ddd;
+  font-weight: bold;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.task-item {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.task-item.done span {
+  text-decoration: line-through;
+  color: #aaa;
+}
+
+.task-item input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.task-item span {
+  flex-grow: 1;
+  text-align: left;
+}
+
+.task-item button {
+  background-color: #f44336;
+}
+
+.task-item button.edit {
+  background-color: #2196F3;
+  margin-left: 5px;
+}
+
+.task-counter {
+  margin-top: 20px;
+  font-style: italic;
+} 
