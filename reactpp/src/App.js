@@ -1,29 +1,13 @@
-
-import React from "react";
-import AdvancedCounter from "./components/AdvancedCounter";
+import React from 'react';
+import './App.css';
+import Calculator from './components/Calculator';
 
 function App() {
   return (
-    <div>
-      <AdvancedCounter />
+    <div className="App">
+      <Calculator />
     </div>
   );
 }
 
 export default App;
-// import React from "react";
-// import TodoList from "./components/TodoList";
-
-// function App() {
-//   return (
-//     <div className="bg-gray-100 min-h-screen p-5">
-//       <h1 className="text-center text-3xl font-bold text-blue-700 mb-8">
-//         Application Todos
-//       </h1>
-//       <TodoList />
-//     </div>
-//   );
-// }
-
-// export default App;
-

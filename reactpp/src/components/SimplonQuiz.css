@@ -1,0 +1,104 @@
+/* Ajoutez ce style dans UserProfile.css ou un fichier CSS global */
+
+/* Style pour le quiz */
+.form-container {
+  background: linear-gradient(to right, #ff4d4d, #ffe066, #4ade80);
+  padding: 36px 28px;
+  border-radius: 18px;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.12);
+  max-width: 500px;
+  margin: 48px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid #e5e7eb;
+}
+
+.form-content {
+  background: rgba(255,255,255,0.96);
+  border-radius: 14px;
+  padding: 18px 12px 24px 12px;
+  z-index: 1;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+  position: relative;
+}
+
+.welcome-message {
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #4f46e5;
+  margin-bottom: 18px;
+  margin-top: 0;
+  letter-spacing: 1px;
+  text-shadow: 0 2px 8px #fff8;
+}
+
+.quiz-question {
+  font-size: 1.15em;
+  font-weight: 600;
+  color: #374151;
+  margin-bottom: 18px;
+}
+
+.quiz-options button {
+  display: block;
+  width: 100%;
+  margin: 8px 0;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1.5px solid #6366f1;
+  background: #f3f4f6;
+  color: #374151;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s, border 0.2s;
+}
+
+.quiz-options button:hover {
+  background: #6366f1;
+  color: #fff;
+  border: 1.5px solid #374151;
+}
+
+.submit-button {
+  background: linear-gradient(90deg, #6366f1 60%, #16a34a 100%);
+  color: #fff;
+  border: none;
+  padding: 15px 0;
+  border-radius: 12px;
+  font-weight: 800;
+  font-size: 1.15em;
+  cursor: pointer;
+  transition: background 0.2s, transform 0.12s, box-shadow 0.18s;
+  margin-top: 14px;
+  box-shadow: 0 4px 16px #6366f133, 0 1.5px 4px #16a34a22;
+  letter-spacing: 1px;
+  text-shadow: 0 1px 4px #0001;
+  outline: none;
+  border: 2px solid transparent;
+  position: relative;
+  overflow: hidden;
+}
+
+.submit-button:hover {
+  background: linear-gradient(90deg, #4f46e5 60%, #059669 100%);
+  transform: translateY(-3px) scale(1.045);
+  box-shadow: 0 8px 24px #6366f144, 0 2px 8px #16a34a33;
+  border: 2px solid #6366f1;
+}
+
+@media (max-width: 600px) {
+  .form-container {
+    padding: 18px 4px;
+    max-width: 98vw;
+  }
+  .form-content {
+    padding: 10px 2vw 18px 2vw;
+  }
+  .welcome-message {
+    font-size: 1.15em;
+  }
+}
